@@ -7,6 +7,7 @@ import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
 cl.login(token="EoSXRBw6EhPdnbXxJ8Zb.w6+8YbOkbOMyiHAGbC+hcW.BavQR8Wk85TwKtW01P/xchKMrEQ/5QJgl9PiMX62ahM")
+cl.loginResult()
 
 print "login success plak"
 reload(sys)
